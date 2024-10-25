@@ -1,0 +1,39 @@
+/* Alianzas */
+
+.contenedorAlianzas,
+.contenedorAlianzas2 {
+    text-align: center;
+
+    /* Centra todo el contenido */
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.imgAlianzas {
+    display: block;
+    margin: 0 auto;
+
+    /* Asegura que la imagen esté centrada */
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.imgAlianzas2 {
+    display: block;
+    margin: 0 auto;
+
+    /* Asegura que la imagen esté centrada */
+    display: block;
+    width: 15%;
+    height: auto;
+}
+
+.contenedorAlianzas p {
+    color: black;
+    padding: 0px;
+    margin: 70px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

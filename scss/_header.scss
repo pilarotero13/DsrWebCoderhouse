@@ -1,0 +1,31 @@
+/* Header */
+
+@mixin anclas {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+header {
+    border-bottom: 1px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 300px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+a {
+
+    @include anclas;
+    margin: 10px;
+}
